@@ -1,0 +1,33 @@
+.comments {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.comments li {
+  text-align: left;
+  padding: 0.5rem;
+  border-radius: 4px;
+  list-style: none;
+  background-color: #dadada;
+}
+
+.comments p {
+  margin: 0;
+  background-color: #fff;
+  padding: .5em;
+  border-radius: 4px;
+}
+
+.comments li > div {
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
+  padding-bottom: 1em;
+}
+
+.comments address {
+  display: inline;
+}
